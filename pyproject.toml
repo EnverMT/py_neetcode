@@ -16,3 +16,6 @@ testpaths = ["Tests"]
 python_files = ["test*.py"]
 pythonpath = ["."]
 addopts = "-ra"
+
+[tool.black]
+line-length = 120
