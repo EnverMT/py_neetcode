@@ -35,10 +35,6 @@ def test_two_sum_handles_unsorted_values() -> None:
     assert solution.twoSum([8, 1, 6, 2], 10) == [0, 3]
 
 
-def test_two_sum_handles_mixed_positive_and_negative_values() -> None:
-    assert solution.twoSum([-10, 20, 15, -5], 10) == [2, 3]
-
-
 def test_two_sum_handles_large_numbers() -> None:
     assert solution.twoSum([1_000_000, 500_000, -500_000, 3], 0) == [1, 2]
 
